@@ -1,13 +1,16 @@
 "use strict"
 
 // 1
-// let user
-// fetch('https://jsonplaceholder.typicode.com/users/1')
-//     .then(response => response.json())
-//     .then(result => localStorage.setItem('user', JSON.stringify(result)),
-//         user = JSON.parse(localStorage.user),
-//         console.log(user))
-//     .catch(error => console.error(error));
+// const user = JSON.parse(localStorage.getItem('user'));
+
+// if (user) {
+//     console.log(user);
+// } else {
+//     fetch('https://jsonplaceholder.typicode.com/users/1')
+//         .then(response => response.json())
+//         .then(result => localStorage.setItem('user', JSON.stringify(result)))
+//         .catch(error => console.error(error));
+//     }
 
 
 // 2
@@ -18,6 +21,7 @@
 
 // console.log(isValidDateFormat("2012/09/18 12:10")); // true
 // console.log(isValidDateFormat("12.02.2022 12:10")); // false
+
 
 // 3
 // function isAfter(date1, date2) {
